@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "create-cpp-project": {
+      "commandName": "Project",
+      "workingDirectory": "$(SolutionDir)working"
+    }
+  }
+}

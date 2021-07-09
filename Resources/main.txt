@@ -1,0 +1,11 @@
+#include "linalg.h"
+#include <numbers>
+
+#define Timer_Start(x) const auto x = std::chrono::high_resolution_clock::now()
+#define Timer_End(x, y) std::cout << (x) << (std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::high_resolution_clock::now() - (y)).count() / 1000.f) << " s" << std::endl
+
+int main()
+{
+
+	return 0;
+}
